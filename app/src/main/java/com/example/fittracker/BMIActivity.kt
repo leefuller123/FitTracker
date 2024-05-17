@@ -16,7 +16,7 @@ class BMIActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bmi)
 
-        // Initialize Firebase Firestore
+
         db = FirebaseFirestore.getInstance()
 
         val heightInput = findViewById<EditText>(R.id.heightInput)
@@ -55,11 +55,8 @@ class BMIActivity : AppCompatActivity() {
         db.collection("bmiRecords")
             .add(bmiData)
             .addOnSuccessListener { documentReference ->
-                // Successfully saved
-                // You can add additional actions here if needed
             }
             .addOnFailureListener { e ->
-                // Handle the error
             }
     }
 }
