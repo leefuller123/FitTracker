@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/waterInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter water intake in ml"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/addWaterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Water"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/totalWaterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total water consumed: 0 ml"
+        android:textSize="18sp"/>
+
+</LinearLayout>

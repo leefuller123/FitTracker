@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1067037733784",
+    "project_id": "fittracker-36c01",
+    "storage_bucket": "fittracker-36c01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067037733784:android:2b3b1d954771c0f05b71ed",
+        "android_client_info": {
+          "package_name": "com.example.fittracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTRvM1PXmyiQLvjqaBry6tVLot7HreZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/workoutPlanNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter workout plan name"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/createWorkoutPlanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Workout Plan"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/currentWorkoutPlanText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No current workout plan"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/exerciseNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter exercise name"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/exerciseWeightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PB weight (kg)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/addExerciseButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Exercise"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/exercisesListText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercises:"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/exercisesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/saveWorkoutPlanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Workout Plan"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
